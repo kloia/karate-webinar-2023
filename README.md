@@ -29,7 +29,7 @@
 2. Scenarios determined on the JUnit runner can be run again by pressing the green RUN button.
 
 
-3. `Running it via CLI by giving 'Runner class' and 'tagname'.
+3. Running it via CLI by giving 'Runner class' and 'tagname'.
 
    `mvn clean test -Dtest=RunnerName "-Dkarate.options=--tags @tagName"`
    `mvn clean test -Dtest="CucumberRunner#testAll"`
