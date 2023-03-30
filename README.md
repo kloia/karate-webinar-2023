@@ -1,13 +1,20 @@
 # Kloia Karate Webinar 2023 Karate API Functional Testing Automation Project
-
+   
+   This project includes API Automation Testing with Karate Framework.
 
 # Tool stack
 
 * **Karate Framework** - Development Framework
-* **Gatling Framework** - Performance Test Framework
-* **Java/Javascript/Scala** - Development Language (For situations where it is necessary)
+* **Java/Javascript/Scala** - Development Language
 * **IntelliJ IDE** - Development IDE
 * **Maven** - Package Management
+
+# Installation
+
+* IntelliJ IDE must be installed. <a href="https://www.jetbrains.com/idea/download/">Link to install</a>
+
+* Java must be installed. <a href="https://www.oracle.com/java/technologies/downloads/#java8">Link to install</a>
+
 
 # Quick Setup ( for mac and windows )
 
@@ -25,3 +32,4 @@
 3. `Running it via CLI by giving 'Runner class' and 'tagname'.
 
    `mvn clean test -Dtest=RunnerName "-Dkarate.options=--tags @tagName"`
+   `mvn clean test -Dtest="CucumberRunner#testAll"`
