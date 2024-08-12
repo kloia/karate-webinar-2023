@@ -18,7 +18,7 @@
 
 # Quick Setup ( for mac and windows )
 
-* cd /Users/gsahin/Desktop/WEBINAR
+* cd "file Path"
 * mvn archetype:generate -DarchetypeGroupId=com.intuit.karate -DarchetypeArtifactId=karate-archetype -DarchetypeVersion=1.3.1 -DgroupId=com.mycompany -DartifactId=webinar
 
 # Running Tests
