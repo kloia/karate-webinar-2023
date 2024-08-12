@@ -18,7 +18,7 @@
 
 # Quick Setup ( for mac and windows )
 
-* cd "file Path"
+* cd "users/xxx/karateProject" => **path should be edited**
 * mvn archetype:generate -DarchetypeGroupId=com.intuit.karate -DarchetypeArtifactId=karate-archetype -DarchetypeVersion=1.3.1 -DgroupId=com.mycompany -DartifactId=webinar
 
 # Running Tests
